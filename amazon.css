@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    background-color: #131921;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* navbar*/
+.nav-left{
+    height: 50px;
+    width: 215px;
+    display: flex;
+}
+
+.logo{
+    width: 113px;
+    height: 49px;
+}
+.border{
+    border: 2px solid transparent;
+
+}
+.border:hover {
+    border: 2px solid white;
+    border-radius: 2px;
+}
+.nav-address{
+    width: 90px;
+    height: 49px;
+}
+/* deliver to */
+
+.addr-deliver{
+    color: #cccccc;
+    font-size: 0.7rem;
+    margin-left: 17px;
+    margin-top: 5px;
+}
+/* serachbar */
+.nav-search{
+    display: flex;
+    height: 40px;
+    width: 900px;
+    border-radius: 2px;
+}
+.nav-select{
+    color: #0f1111;
+    font-size: 14px; 
+    background-color: #E6E6E6;
+    width: 50PX;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.nav-serach-bar{
+width: 100%;
+border: none;
+font-size: 15px;
+}
+.search-icon{
+    width: 45px;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    background-color: rgb(254,189,105);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nav-search:hover{
+    border: 3px solid rgb(254,189,105);
+    border-radius: 8px;
+}
+
+/* navright */
+.nav-right{
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.sign-in{
+    width: 136px;
+    height: 40px;
+    font-size: 12px;
+    
+}
+.sign-in a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-right-text{
+    font-size: 14px;
+    font-weight: 700;
+}
+.return{
+    width: 78px;
+    height: 40px;
+    font-size: 12px;
+}
+.cart-icon{
+    font-size: 2em;
+}
+.cart{
+    width: 85px;
+    height: 40px;
+    display: flex;
+}
+.cart-icon{
+  width: 38px;
+  height: 26px;
+}
+.nav-right-text-cart{
+    font-size: 14px;
+}
+.cart p{
+    margin-top: 15px;
+}
+/* navsprite */
+
+.nav-sprite{
+    display: flex;
+    background-color: rgb(35,47,62);
+    height: 40px;
+    color: white;
+    align-items: center;
+}
+.nav-sprite-all i{
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 3px 0 3px 0;
+}
+.nav-sprite-all a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-sprite-options{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 39px;
+}
+.nav-sprite-options  a{
+    display: block;
+    text-decoration:none;
+    color: white;
+    padding: 5px;
+    margin-left: 20px;
+    font-size: 0.85rem;
+}
+.deals-with-electronics{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-left: 15rem;
+    padding: 5px;
+}
+
+
+/* content-section */
+
+
+.content-section{
+    background-image: url("./hero_image.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.content-section-div{
+    background-color: rgb(245,246,246);
+    font-size: 14px;
+    text-align: center;
+    height: 40px;
+    width: 80%;
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+.content-section-div p{
+    margin-top: 10px;
+}
+.content-section-div a{
+    color: rgb(85,26,139);
+}
+.content-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(227,230,230);
+    padding: 20px 10px;
+}
+.boxs{
+ margin-top: 20px;
+ width: 24%;
+ height: 400px;
+ border: none;
+ background-color: white;
+ padding: 20px 0px 15px;
+}
+.box-content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.box-content-image{
+    margin-top: 5px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-content p{
+    margin-top: 10px;
+    color: rgb(0,113,133);
+    font-size: 0.83rem;
+    font-weight: 700;
+}
+/* Sub images in content */
+.box-content-sub-image{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.content-div{
+    width: 45%;
+    height: 155px;
+    margin-top: 10px;
+}
+.sub-images{
+    width: 100%;
+    height: 135px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center center; 
+
+}
+
+.content-div p{
+    color: black;
+    font-size: 12px;
+}
+
+/*sign-in-button*/
+.sign-button{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.sign-in-button{
+   height: 100px;
+   width: 100%;
+   text-align: center;
+   border-top: 1px solid #DDD;
+   border-bottom: 1px solid #DDD;
+   padding-top: 30px;
+}
+.sign-in-button p{
+    padding-top: 10px;
+    font-size: 13px;
+}
+/* button styling */
+.button-sub-amzon{
+    margin-top: 5px;
+    width: 230px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: rgb(255,200,62);
+    border: none;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+/* footer */
+.footer1 {
+    height: 50px;
+    background-color: rgb(55,71,90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer1 a{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+/* footer2 */
+.footer2{
+    height: 400px;
+    background-color: rgb(35,47,62);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footer2-sub{
+    margin-top: 20px;
+}
+.footer2-sub ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.footer2-sub li{
+    margin-top: 20px;
+    margin-left: -40px;
+}
+.footer2-sub p{
+    font-weight: 700;
+}
+.footer2-sub a{
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* footer3 */
+
+.footer3{
+    height: 70px;
+    background-color: rgb(35,47,62);
+    border-top: 1px solid rgb(58,69,83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    display: flex;
+    color: #848688;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 50px;
+
+}
+.box2-subbox{
+    border: 2px solid #848688;
+    border-radius: 3px;
+    margin-left: 10px;
+    padding: 6px 0px 6px 6px;
+}
+.box2-subbox a{
+    color: white;
+    font-size: 13px;
+    padding: 6px 18px 6px 8px;
+    text-decoration: none;
+
+}
+
+.footer4{
+ background-color: rgb(19,26,34);
+ height: 400px;
+}
+.footer-sub{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 200px;
+    margin-left: 200px;
+    flex-wrap: wrap;
+}
+.footer4-sub-box{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.footer4-sub-box a{
+    color: #DDDD;
+    font-size: 13px;
+    text-decoration: none;
+}
+.footer5 ul{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    list-style-type: none;
+}
+.footer5 a{
+     color: white;
+     text-decoration: none;
+     font-size: 12px;
+     margin-left: 15px;
+}
+.footer5 p{
+    text-align: center;
+    color: #DDD;
+    font-size: 12px;
+}
+
+
+/* hover */
+.footer2-sub a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.footer3 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.footer4-sub-box a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer5 a:hover{
+    color: white;
+    text-decoration: underline; 
+}
+
+
+
+
+/* ______________________________________________________________________________________________________________ */
+
+
+/* Amazon Registration */
+.Sign-in-form-center{
+     text-align: center;
+     
+}
+.Sign-in-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 400px;
+}
+.Registration-form-div{
+    border: 1px #ddd solid;
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    
+}
+form{
+    margin-top: 10px;
+}
+.Sign-in-Email{
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: -125px;
+}
+.Sign-in-input{
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 1px 0 rgba(0, 0, 0, .07) inset;
+    background-color: #fff;
+    height: 20px;
+    padding: 3px 7px;
+    width: 300px;
+    margin-top: 5px;
+}
+
+/* button */
+
+#mybutton{
+    margin-top: 15px;
+    height: 32px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: rgb(255,216,20);
+    font-size: 13px;
+    border: none;
+    color: #0F1111;;
+
+}
+.Registration-form-div p{
+    font-size: 12px;
+
+}
+.Registration-form-div a{
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.new-amazon-from{
+    margin-top: 50px;
+    border-top: 1px solid #e7e7e7;
+    background-color: transparent;
+}
+.new-amazon-from p{
+    margin-top: 5px;
+    color: #767676;
+    font-size: 12px;
+}
+.form-account{
+    background-color: transparent;
+    border: 1px solid #ADB1B8;
+    border-radius: 8px;
+    padding: 5px;
+}
+.new-amazon-from a{
+    font-size: 13px;
+    color: #131921;
+    padding: 3px;
+    text-decoration: none;
+}
+.sign-form-footer{
+    height: 44px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .14), rgba(0, 0, 0, .03) 3px, transparent);
+    z-index: 0;
+    zoom: 1;
+    
+}
+
+.sign-form-footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.sign-form-footer li{
+margin-left: 10px;
+list-style-type: none;
+font-size: 11px;
+}
+.sign-form-footer a{
+    text-decoration: none;
+    color: #0066c0;
+}
